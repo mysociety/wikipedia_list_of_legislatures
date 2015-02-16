@@ -27,7 +27,6 @@ class WikiTable(object):
     concatenated."""
 
     remaining_rowspans = [0] * len(self.column_indices)
-
     data = {}
 
     for row in self.element.findall('tr')[1:]:
